@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Prist | Gatsby & Prismic Starter`,
-        description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
-    author: `Marguerite Roth | marguerite.io`,
+    title: `Ande Gmbh`,
+        description: `Dienstleistung Möbel und Küchenmontage.`,
+    author: `pixendrit`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-prismic-starter-prist`,
-        short_name: `prist`,
+        name: `Ande Gmbh`,
+        short_name: `andegmbh`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
@@ -49,6 +49,13 @@ module.exports = {
             trackingId: "YOUR_GOOGLE_ANALYTICS_TRACKING_ID",
             head: true,
         },
+    },
+   
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-responsive-iframe`],
+      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

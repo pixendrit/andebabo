@@ -5,6 +5,7 @@ import colors from "styles/colors";
 import Logo from "components/_ui/Logo";
 import spooch from "images/oscar-icon.png"
 
+
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
     padding-bottom: 3em;
@@ -50,11 +51,13 @@ const FooterSpooch = styled("img")`
 
 const Footer = () => (
     <FooterContainer>
+                    <iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Telemannstra%C3%9Fe%2010%20%20M%C3%BCnster+(Ande%20Gmbh)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="520" height="400" frameborder="0"></iframe>  <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=85313abc112b9202201bfff20a400f11bd5cb743'></script>
+
         <Link to="/">
             <Logo />
         </Link>
-        <FooterAuthor href="https://www.marguerite.io/?utm_source=prist&utm_medium=footer&utm_campaign=prist_starter">
-            © 2019 — Designed & developed by Marguerite Roth
+        <FooterAuthor href="https://www.pixendrit.com">
+            © 2020 — Designed & developed by pixendrit
             <FooterSpooch className="FooterSpooch" src={spooch} />
         </FooterAuthor>
     </FooterContainer>

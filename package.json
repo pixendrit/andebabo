@@ -7,7 +7,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
-    "gatsby": "^2.12.0",
+    "gatsby": "^2.24.2",
     "gatsby-image": "^2.2.20",
     "gatsby-plugin-catch-links": "^2.0.12",
     "gatsby-plugin-emotion": "^4.1.0",
@@ -15,12 +15,16 @@
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-plugin-offline": "^3.0.8",
     "gatsby-plugin-react-helmet": "^3.1.8",
+    "gatsby-plugin-react-leaflet": "^2.0.13",
     "gatsby-plugin-resolve-src": "^2.0.0",
     "gatsby-plugin-sass": "^2.0.11",
     "gatsby-plugin-sharp": "^2.2.25",
+    "gatsby-remark-responsive-iframe": "^2.4.11",
     "gatsby-source-filesystem": "^2.1.26",
     "gatsby-source-prismic-graphql": "npm:@prismicio/gatsby-source-prismic-graphql@^3.6.10",
+    "gatsby-transformer-remark": "^2.8.25",
     "gatsby-transformer-sharp": "^2.2.16",
+    "leaflet": "^1.6.0",
     "node-sass": "^4.12.0",
     "prismic-reactjs": "^1.1.1",
     "prop-types": "^15.7.2",
@@ -29,6 +33,7 @@
     "react-dom": "^16.9.0",
     "react-emoji": "^0.5.0",
     "react-helmet": "^5.2.1",
+    "react-leaflet": "^2.7.0",
     "react-markdown": "^4.0.6",
     "react-modal": "^3.8.1",
     "react-moment": "^0.9.2",
@@ -64,5 +69,5 @@
   },
   "resolutions": {
     "graphql": "14.6.0"
- }
+  }
 }

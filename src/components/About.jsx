@@ -95,14 +95,17 @@ const About = ({ bio, socialLinks }) => (
         </AboutLinkContainer>
         <AboutBio>
             {RichText.render(bio)}
+            <a href="tel:+491785456788"> Ruf uns um ... an 07185-456788</a>
         </AboutBio>
         <AboutActions>
-            <a href="mailto:marguerite.roth@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:andegmbh@hotmail.com" target="_blank" rel="noopener noreferrer">
                 <Button className="Button--secondary">
-                    Email me
+                Schreiben Sie uns eine E-Mail
                 </Button>
             </a>
         </AboutActions>
+        
+        
     </AboutContainer>
 )
 
