@@ -105,7 +105,7 @@ const About = ({ bio, socialLinks }) => (
             </a>
         </AboutActions>
         
-        
+        <iframe scrolling="yes" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=370&height=300&hl=de&q=Telemannstra%C3%9Fe%2010%20%20M%C3%BCnster+(Ande%20Gmbh)&t=&z=12&ie=UTF8&iwloc=B&output=embed" width="370" height="300" frameborder="0"></iframe> <a href='https://add-map.com/'>Ort </a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=85313abc112b9202201bfff20a400f11bd5cb743'></script>
     </AboutContainer>
 )
 
