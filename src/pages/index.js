@@ -11,12 +11,14 @@ import About from "components/About";
 import Layout from "components/Layout";
 import ProjectCard from "components/ProjectCard";
 
-const Hero = styled("div")`
+
+const Hero = styled("div")`    
+
     padding-top: 2.5em;
     padding-bottom: 3em;
     margin-bottom: 6em;
     max-width: 830px;
-
+    StyledBackgroundSection
     @media(max-width:${dimensions.maxwidthMobile}px) {
        margin-bottom: 3em;
     }
@@ -47,9 +49,12 @@ const Hero = styled("div")`
             }
         }
     }
+   
 `
 
+
 const Section = styled("div")`
+   
     margin-bottom: 10em;
     display: flex;
     flex-direction: column;
@@ -92,6 +97,7 @@ const WorkAction = styled(Link)`
         }
     }
 `
+
 
 const RenderBody = ({ home, projects, meta }) => (
     <>
