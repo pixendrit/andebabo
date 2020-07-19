@@ -27,6 +27,7 @@ module.exports = {
         resolve: 'gatsby-source-prismic-graphql',
         options: {
             repositoryName: 'andebabo', // (REQUIRED, replace with your own)
+            accessToken: `${process.env.API_KEY}`,
             linkResolver: () => post => `/${post.uid}`,
         }
     },
