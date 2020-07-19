@@ -167,7 +167,7 @@ const RenderBody = ({ home, projects, meta }) => (
         </Section>
         <Section>
             {RichText.render(home.about_title)}
-            <Kontakten
+            <About
                 bio={home.about_bio}
                 socialLinks={home.about_links}
             />
