@@ -95,7 +95,7 @@ const About = ({ bio, socialLinks }) => (
         </AboutLinkContainer>
         <AboutBio>
             {RichText.render(bio)}
-            <a href="tel:+4915174210061"> Ruf uns um ... an 0151 74210061</a>
+            <a href="tel:+4915174210061"> Rufen Sie uns an... 0151 74210061</a>
         </AboutBio>
         <AboutActions>
             <a href="mailto:andegmbh@hotmail.com" target="_blank" rel="noopener noreferrer">
